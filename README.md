@@ -1,7 +1,7 @@
 Install Command:
 
-powershell.exe -executionpolicyByPass - File .\winget-install.ps1
+powershell.exe -executionpolicy ByPass -File .\winget-install.ps1
 
 Uninstall Command
 
-powershell.exe -executionpolicyByPass - File .\winget-uninstall.ps1
+powershell.exe -executionpolicy ByPass -File .\winget-uninstall.ps1
